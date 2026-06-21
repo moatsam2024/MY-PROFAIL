@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>معتصم عبد الرحمن حسين | مبرمج Backend</title>
+  <meta name="description" data-i18n="meta_desc" content="الملف الشخصي لمعتصم عبد الرحمن حسين - مبرمج Backend متخصص في Laravel وتصميم قواعد البيانات وأتمتة العمليات وتكامل الأنظمة." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <!-- شريط التنقل -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo" aria-label="Home">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="8 6 3 12 8 18"></polyline>
+          <polyline points="16 6 21 12 16 18"></polyline>
+        </svg>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="nav_about">نبذة</a>
+        <a href="#experience" data-i18n="nav_exp">الخبرات</a>
+        <a href="#projects" data-i18n="nav_projects">المشاريع</a>
+        <a href="#skills" data-i18n="nav_skills">المهارات</a>
+        <a href="#contact" data-i18n="nav_contact">تواصل</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Language">EN</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="theme">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- القسم الرئيسي -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-name" data-i18n="hero_name">معتصم عبد الرحمن حسين</h1>
+        <h2 class="hero-title">
+          <span class="accent">&lt;</span> <span data-i18n="hero_role">مبرمج Backend</span> <span class="accent">/&gt;</span>
+        </h2>
+        <p class="hero-desc" data-i18n="hero_desc">
+          متخصص في تطوير تطبيقات الويب والأنظمة المتكاملة باستخدام إطار العمل Laravel،
+          مع خبرة في تصميم قواعد البيانات، أتمتة العمليات، وربط الأنظمة البرمجية.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero_cta1">استعرض مشاريعي</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero_cta2">تواصل معي</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">Laravel</span><span class="stat-label" data-i18n="stat1">الإطار الأساسي</span></div>
+          <div class="stat"><span class="stat-num">MySQL</span><span class="stat-label" data-i18n="stat2">قواعد البيانات</span></div>
+          <div class="stat"><span class="stat-num">n8n</span><span class="stat-label" data-i18n="stat3">الأتمتة</span></div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="profile.jpg" alt="معتصم عبد الرحمن حسين" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- نبذة -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about_title">نبذة شخصية</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about_p1">
+            مبرمج Backend متخصص في تطوير تطبيقات الويب والأنظمة المتكاملة باستخدام
+            إطار العمل Laravel. أمتلك خبرة واسعة في تصميم قواعد البيانات وإدارة النظم
+            الخلفية، مع تركيز خاص على أتمتة العمليات وربط الأنظمة البرمجية.
+          </p>
+          <p data-i18n="about_p2">
+            أتمتع بقدرة عالية على العمل ضمن فرق برمجية لتطوير حلول تقنية متكاملة،
+            بدءاً من المتاجر الإلكترونية والمواقع التعريفية وصولاً إلى لوحات التحكم
+            المعقدة للتطبيقات التقنية.
+          </p>
+          <div class="edu-card">
+            <span class="edu-icon">🎓</span>
+            <div>
+              <h4 data-i18n="edu_title">بكالوريوس تقنية الحاسوب (تخصص برمجة)</h4>
+              <p data-i18n="edu_sub">كلية تقنية الحاسوب - طرابلس · التخرج 2025</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-side">
+          <div class="code-card">
+            <div class="code-head">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-file">developer.php</span>
+            </div>
+<pre class="code-body"><code>&lt;?php
+$developer = [
+  'name'   =&gt; 'Moatsam Abdulrahman',
+  'role'   =&gt; 'Backend Developer',
+  'stack'  =&gt; ['Laravel', 'MySQL'],
+  'focus'  =&gt; ['Automation', 'API'],
+  'tools'  =&gt; ['n8n', 'Dolibarr',
+              'Zammad', 'WhatsApp API'],
+  'team'   =&gt; 'Qader Tech',
+];
+
+return $developer;</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الخبرات -->
+  <section class="section alt" id="experience">
+    <div class="container">
+      <h2 class="section-title" data-i18n="exp_title">الخبرات العملية</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="exp-head">
+              <h3 data-i18n="exp_role">مبرمج Backend</h3>
+              <span class="company" data-i18n="exp_company">شركة رقمنة للخدمات التقنية</span>
+              <span class="period current" data-i18n="exp_period">العمل الحالي</span>
+            </div>
+            <ul class="exp-list">
+              <li data-i18n="exp_li1">بناء تكاملات برمجية (API Integrations) بين أنظمة متعددة لضمان تبادل البيانات بسلاسة.</li>
+              <li data-i18n="exp_li2">تكامل واجهة WhatsApp API لربط خدمات العملاء والتواصل الآلي.</li>
+              <li data-i18n="exp_li3">تكامل نظام إدارة الموارد Dolibarr مع الأنظمة الأخرى.</li>
+              <li data-i18n="exp_li4">تكامل نظام تذاكر الدعم الفني Zammad لتحسين خدمة العملاء.</li>
+              <li data-i18n="exp_li5">أتمتة سير العمل (Workflows) باستخدام أداة n8n لزيادة كفاءة العمليات وتقليل المهام اليدوية.</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Laravel</span><span>MySQL</span><span>APIs</span><span>n8n</span><span>Dolibarr</span><span>Zammad</span><span>WhatsApp API</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="exp-head">
+              <h3 data-i18n="exp2_role">مشرف ومطوّر Backend</h3>
+              <span class="company" data-i18n="exp2_company">شركة قادر للبرمجيات</span>
+              <span class="period" data-i18n="exp2_period">متعاون</span>
+            </div>
+            <ul class="exp-list">
+              <li data-i18n="exp2_li1">الإشراف على تطوير منصة "توريستا" لحجز الاستراحات والشاليهات (التطبيق ولوحة التحكم).</li>
+              <li data-i18n="exp2_li2">تطوير وصيانة الأنظمة الخلفية باستخدام إطار العمل Laravel.</li>
+              <li data-i18n="exp2_li3">تصميم وهيكلة وإدارة قواعد البيانات (MySQL) لضمان كفاءة الأداء.</li>
+              <li data-i18n="exp2_li4">بناء وربط واجهات برمجة التطبيقات (APIs) بين مكوّنات النظام.</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Laravel</span><span>MySQL</span><span>APIs</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المشاريع -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title" data-i18n="projects_title">المشاريع المميزة</h2>
+      <div class="cards">
+        <article class="project-card featured">
+          <div class="project-top">
+            <img src="toresta.png" alt="Toresta" class="app-icon" />
+            <a href="https://play.google.com/store/apps/details?id=com.turista.customer" target="_blank" rel="noopener" class="badge-link">Google Play ↗</a>
+          </div>
+          <h3>توريستا (Toresta)</h3>
+          <p data-i18n="proj_toresta">الإشراف على تطوير منصة توريستا لحجز الاستراحات والشاليهات (التطبيق ولوحة التحكم) مع شركة قادر، بما يشمل الأنظمة الخلفية بـ Laravel وإدارة قواعد البيانات وربط واجهات APIs.</p>
+          <div class="project-tags"><span>Laravel</span><span>Dashboard</span><span>MySQL</span></div>
+          <a href="https://play.google.com/store/apps/details?id=com.turista.customer" target="_blank" rel="noopener" class="project-link" data-i18n="proj_view_play">عرض على Google Play ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="folder">🛒</span></div>
+          <h3 data-i18n="proj_ecom_t">المتاجر الإلكترونية</h3>
+          <p data-i18n="proj_ecom_d">تطوير وبناء متاجر إلكترونية متكاملة للشركات والأفراد، تشمل إدارة المنتجات والطلبات وأنظمة الدفع.</p>
+          <div class="project-tags"><span>Laravel</span><span>E-commerce</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="folder">🌐</span></div>
+          <h3 data-i18n="proj_web_t">المواقع التعريفية</h3>
+          <p data-i18n="proj_web_d">تصميم وتطوير مواقع تعريفية احترافية للشركات والأفراد لإبراز هويتهم وخدماتهم.</p>
+          <div class="project-tags"><span>Web</span><span>Backend</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="folder">🔗</span></div>
+          <h3 data-i18n="proj_int_t">تكامل الأنظمة (Integrations)</h3>
+          <p data-i18n="proj_int_d">بناء تكاملات برمجية بين أنظمة متعددة لتبادل البيانات بسلاسة، تشمل نظام Dolibarr لإدارة الموارد، نظام Zammad للدعم الفني، وواجهة WhatsApp API.</p>
+          <div class="project-tags"><span>Dolibarr</span><span>Zammad</span><span>WhatsApp API</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="folder">⚙️</span></div>
+          <h3 data-i18n="proj_auto_t">أتمتة سير العمل</h3>
+          <p data-i18n="proj_auto_d">تصميم وأتمتة سير العمل (Workflows) باستخدام أداة n8n لزيادة كفاءة العمليات التقنية وتقليل المهام اليدوية.</p>
+          <div class="project-tags"><span>n8n</span><span>Automation</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="folder">📊</span></div>
+          <h3 data-i18n="proj_admin_t">لوحات التحكم الإدارية</h3>
+          <p data-i18n="proj_admin_d">تطوير لوحات تحكم معقدة للتطبيقات التقنية تتيح إدارة شاملة للبيانات والمستخدمين والعمليات.</p>
+          <div class="project-tags"><span>Laravel</span><span>Admin Panel</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- المهارات -->
+  <section class="section alt" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-i18n="skills_title">المهارات التقنية</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h4 data-i18n="skill_backend">🖥️ تطوير الـ Backend</h4>
+          <div class="chips"><span>Laravel</span><span>PHP</span><span>REST API</span></div>
+        </div>
+        <div class="skill-box">
+          <h4 data-i18n="skill_db">🗄️ قواعد البيانات</h4>
+          <div class="chips"><span>MySQL</span><span data-i18n="skill_db_design">تصميم القواعد</span></div>
+        </div>
+        <div class="skill-box">
+          <h4 data-i18n="skill_auto">⚡ الأتمتة والتكامل</h4>
+          <div class="chips"><span>n8n</span><span>Dolibarr</span><span>Zammad</span><span>WhatsApp API</span></div>
+        </div>
+        <div class="skill-box">
+          <h4 data-i18n="skill_proj">🚀 تطوير المشاريع</h4>
+          <div class="chips"><span data-i18n="chip_ecom">المتاجر الإلكترونية</span><span data-i18n="chip_web">المواقع التعريفية</span><span data-i18n="chip_dash">لوحات التحكم</span></div>
+        </div>
+        <div class="skill-box">
+          <h4 data-i18n="skill_office">📄 أدوات مكتبية</h4>
+          <div class="chips"><span>Microsoft Word</span><span>Microsoft Excel</span></div>
+        </div>
+        <div class="skill-box">
+          <h4 data-i18n="skill_lang">🌍 اللغات</h4>
+          <div class="chips"><span data-i18n="chip_ar">العربية (الأم)</span><span data-i18n="chip_en">الإنجليزية (جيد)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title center" data-i18n="contact_title">تواصل معي</h2>
+      <p class="contact-lead" data-i18n="contact_lead">
+        هل لديك مشروع أو فرصة عمل؟ يسعدني التواصل معك. اختر الطريقة الأنسب لك:
+      </p>
+      <div class="contact-cards">
+        <a href="mailto:moatsamomar10@gmail.com" class="contact-card">
+          <span class="ci">✉️</span>
+          <span class="cl" data-i18n="contact_email">البريد الإلكتروني</span>
+          <span class="cv">moatsamomar10@gmail.com</span>
+        </a>
+        <a href="tel:0945835798" class="contact-card">
+          <span class="ci">📱</span>
+          <span class="cl" data-i18n="contact_phone">رقم الهاتف</span>
+          <span class="cv">0945835798</span>
+        </a>
+        <a href="https://wa.me/218945835798" target="_blank" rel="noopener" class="contact-card">
+          <span class="ci">💬</span>
+          <span class="cl">WhatsApp</span>
+          <span class="cv" data-i18n="contact_wa">مراسلة مباشرة</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p><span data-i18n="footer_by">صُمم وطُوّر بواسطة</span> <strong>معتصم عبد الرحمن حسين</strong></p>
+      <p class="footer-sub">© <span id="year"></span> · <span data-i18n="hero_role">مبرمج Backend</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
